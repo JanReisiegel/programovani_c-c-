@@ -1,10 +1,10 @@
 #pragma once
+#include <time.h>
 #include "Polozka.h"
 typedef struct uctenka{
 	time_t date;
-	float cenaCelkem;
 	int pocetPolozek;
-	struct polozka* polozky;
+	POLOZKA* polozky;
 }UCTENKA;
 
-float sumaUctenky(UCTENKA* u);
+float sumaUctenky(UCTENKA u);

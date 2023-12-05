@@ -28,7 +28,7 @@ void czechFlag(int height, int width) {
 		{
 
 			if (j <= i) {
-				char hvezda
+				char hvezda;
 				printf("*");
 				fwrite("*", sizeof(char), flagBin);
 			}
